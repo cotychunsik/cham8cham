@@ -5,3 +5,15 @@
 .contactIconDiv{
     @apply flex items-center px-2 py-3;
 }
+
+/* slick-next 화살표 스타일 */
+.slick-next:before {
+  color: gray !important; /* 화살표 색상을 빨간색으로 변경 */
+  font-size: 30px !important;
+}
+
+/* slick-prev 화살표 스타일 */
+.slick-prev:before {
+  color: gray !important; /* 화살표 색상을 빨간색으로 변경 */
+  font-size: 30px !important;
+}

@@ -2,7 +2,7 @@
 // src/app/components/Card.tsx
 const Cards = () => {
   return (
-    <section className="mt-10 bg-gray-100 py-12">
+    <section className=" bg-gray-100 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Features</h2>
@@ -18,8 +18,10 @@ const Cards = () => {
 </svg>
 
               </div>
-              <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">Eco-Materials</h3>
-              <p className="mt-4 text-base text-gray-500">Woodcraft Interiors는 최고급 천연 목재를 사용하여 환경을 고려한 가구를 제작합니다. 내구성과 아름다움을 동시에 갖춘 디자인을 제공합니다.</p>
+              <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">Production</h3>
+              <p className="mt-4 text-base text-gray-500">
+                고객 중심의 명확하고 논리적인 서비스 설계로 최상의 사용자 경험을 제공합니다.
+              </p>
             </div>
 
             <div className="text-center">
@@ -29,8 +31,8 @@ const Cards = () => {
 </svg>
 
               </div>
-              <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">Craft by Maestros</h3>
-              <p className="mt-4 text-base text-gray-500">모든 가구는 숙련된 장인의 손길로 완성됩니다. 세심한 디테일과 품질을 중요하게 생각합니다.</p>
+              <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">Design</h3>
+              <p className="mt-4 text-base text-gray-500">직관적이면서도 세련된 UI/UX 디자인을 통해 사용자의 몰입도를 극대화합니다.</p>
             </div>
             
             <div className="text-center">
@@ -40,41 +42,15 @@ const Cards = () => {
 </svg>
 
               </div>
-              <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">Customize the Life</h3>
-              <p className="mt-4 text-base text-gray-500">고객의 라이프스타일에 맞춘 맞춤형 디자인 솔루션을 제공하여 집안에 완벽하게 어울리는 가구를 제작합니다.</p>
+              <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">Backend Dev</h3>
+              <p className="mt-4 text-base text-gray-500">안정적이고 효율적인 시스템 아키텍처로 최적화된 성능과 보안성을 보장합니다.</p>
             </div>
             
-            <div className="text-center">
-              <div className="text-indigo-500">
-                <svg className="h-12 w-12 mx-auto" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 2.25c4.004 0 7.5 3.365 7.5 7.5S16.004 17.25 12 17.25 4.5 13.885 4.5 9.75 7.996 2.25 12 2.25z"></path>
-                </svg>
-              </div>
-              <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">Classic and Chic</h3>
-              <p className="mt-4 text-base text-gray-500">현대적이면서도 클래식한 디자인을 추구하며, 시간이 지나도 변함없는 아름다움을 유지하는 가구를 만듭니다.</p>
-            </div>
 
-            <div className="text-center">
-              <div className="text-indigo-500">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-12 w-12 mx-auto">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
-</svg>
 
-              </div>
-              <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">Low Hazard</h3>
-              <p className="mt-4 text-base text-gray-500">Woodcraft Interiors는 건강과 환경을 고려한 친환경 마감재만을 사용합니다. 무독성, 저VOC(휘발성 유기 화합물) 마감재로 가족과 함께 안전하게 사용할 수 있는 가구를 제공합니다</p>
-            </div>
 
-            <div className="text-center">
-              <div className="text-indigo-500">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-12 w-12 mx-auto">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
-</svg>
 
-              </div>
-              <h3 className="mt-2 text-lg leading-6 font-medium text-gray-900">Longlasting Beauty</h3>
-              <p className="mt-4 text-base text-gray-500">우리의 가구는 세월이 지나도 변함없는 내구성을 자랑합니다. 강력한 소재와 세심한 제작 과정을 통해 오래 사용할 수 있는 품질을 보장합니다.</p>
-            </div>
+
             {/* 추가 기능은 이와 같은 형식으로 추가 */}
           </div>
         </div>
