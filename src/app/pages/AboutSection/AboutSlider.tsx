@@ -21,12 +21,22 @@ export default function AboutSlider() {
     autoplay: true, // 자동 슬라이드
     autoplaySpeed: 3000, // 자동 슬라이드 속도
     arrows: true,
+     responsive: [
+    {
+      breakpoint: 768, // 태블릿 이하의 화면에서 설정
+      settings: {
+        slidesToShow: 1, // 작은 화면에서는 한 슬라이드씩만 표시
+        arrows: false, // 모바일에서는 화살표를 비활성화
+        dots: true, // 모바일에서는 슬라이더 점을 유지
+      },
+    },
+  ],
 
   };
 
   return (
-    <div className="flex flex-col mx-auto w-full px-6 lg:px-8 ">
-      <div className='container mx-auto mb-14'>
+    <div className="flex flex-col mx-0 sm:mx-auto w-full sm:w-full sm:px-6 lg:px-8 ">
+      <div className='sm:container mx-0 sm:mx-auto mb-14'>
       <Slider {...settings}>
         <div>
           <About1 />

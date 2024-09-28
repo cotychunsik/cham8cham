@@ -18,7 +18,7 @@ export default function RootLayout({
         <meta name="description" content="Marketing page built with Next.js and Tailwind CSS" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className='min-h-screen flex flex-col'>      
+      <body className='min-h-screen flex flex-col overflow-x-hidden'>      
         <Navbar />
         {children}
         <Footer />

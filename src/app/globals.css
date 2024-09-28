@@ -17,3 +17,9 @@
   color: gray !important; /* 화살표 색상을 빨간색으로 변경 */
   font-size: 30px !important;
 }
+
+@media (max-width: 768px) {
+  .slick-arrow {
+    display: none !important;
+  }
+}

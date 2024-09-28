@@ -14,13 +14,13 @@ export default function OurTeam() {
 
         </div>
         {/* 여기서부터는 카드 */}
-        <div className="flex flex-row gap-10 my-10">
-          <div className="flex-1 bg-slate-200 rounded-xl"> 
+        <div className="flex flex-col sm:flex-row gap-10 my-10">
+          <div className="mx-auto w-4/5 sm:flex-1 bg-slate-200 rounded-xl"> 
 
             <div className="flex-1 px-10 py-5">
           
               
-              <div className="flex-1 flex justify-center items-center mb-10">
+              <div className="flex-1 flex justify-start items-center mb-4">
                 <Image alt="photo by unsplash" src="https://images.unsplash.com/photo-1614393617228-b82d535b738b?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width={700} height={352}
                 objectFit="cover" className="w-12 h-12 mr-3 mt-5 rounded-full"></Image>
                 <p className="font-semibold mt-4">신영진, Design/PM</p>
@@ -40,11 +40,11 @@ SI에서 기획 및 PO 경험 있음</p>
               
             </div>
         </div>
-        <div className="flex-1 bg-slate-200 rounded-xl">
+        <div className="mx-auto w-4/5 sm:flex-1 bg-slate-200 rounded-xl">
             <div className="flex-1 px-10 py-5">
           
               
-              <div className="flex-1 flex justify-start items-center">
+              <div className="flex-1 flex justify-start items-center mb-4">
                 <Image alt="photo by unsplash" src="https://images.unsplash.com/photo-1520626337972-ebf863448db6?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width={527} height={352}
                 objectFit="cover" className="w-12 h-12 mr-3 mt-5 rounded-full"></Image>
 
@@ -69,11 +69,11 @@ SQLD 취득함 <br/>
               
             </div>
         </div>
-          <div className="flex-1 bg-slate-200 rounded-xl">
+          <div className="mx-auto w-4/5 sm:flex-1 bg-slate-200 rounded-xl">
             <div className="flex-1 px-10 py-5">
           
               
-              <div className="flex-1 flex justify-start items-center">
+              <div className="flex-1 flex justify-start items-center mb-4">
 
                 <Image alt="photo by unsplash" src="https://images.unsplash.com/photo-1463462927315-fb10af2c68d8" width={552} height={368}
                  className="w-12 h-12 mr-3 object-cover mt-5 rounded-full"></Image>
