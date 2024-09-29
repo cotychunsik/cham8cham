@@ -7,10 +7,19 @@ import { ReactNode } from 'react';
 import Navbar from './components/Nav';
 import Footer from './components/Footer';
 
-export const metadata: Metadata = {
-  title: 'SI expert Charm&Cham Co',
-  description: '외주개발, SI, IT아웃소싱, 퍼블리싱 외주, 백엔드 외주',
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'SI expert Charm&Cham Co',
+    description: '외주개발, SI, IT아웃소싱, 퍼블리싱 외주, 백엔드 외주',
+    other: {
+      // 네이버 소유권 확인 메타 태그
+      'naver-site-verification': '36004bd753e8793dd78e81c8a54ea173be67d4a0',
+      // 구글 소유권 확인 메타 태그
+      'google-site-verification': 'csLoOqnnkMTWJeRekG7X6lt7eJuuJFHbktPcBHcbd-0',
+    },
+  };
+}
+
 export default function RootLayout({
   children,
 }: {
