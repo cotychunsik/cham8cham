@@ -11,11 +11,11 @@ export default function Home() {
       <main className="flex-1">
         <section id="HeroSection" className='pt-8 md:pt-12 lg:pt-20 pb-0 md:pb-0'>
           <div className="container px-6 mx-auto text-center">
-            <div className='text-3xl font-black sm:text-4xl md:text-5xl lg:text-6xl '>
+            <div className='text-3xl font-black sm:text-4xl md:text-5xl lg:text-6xl sm:block hidden '>
               <Image alt="wide logo" src="/assets/logo/widec8c.png" width={600} height={170} className="animate-fade mx-auto scale-50 sm:scale-75"></Image>
             </div>
             <div className='max-w-xl mx-auto mt-2 text-lg font-light leading-tight text-gray-500 sm:text-xl md:text-2xl'>
-              <p>Fast, Accurate, Professional</p>
+              <p className="hidden sm:block">Fast, Accurate, Professional</p>
             </div>
           </div>
           <AboutSlider/>
