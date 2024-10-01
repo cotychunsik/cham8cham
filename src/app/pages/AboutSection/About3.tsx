@@ -4,14 +4,14 @@ import { HomeModernIcon } from "@heroicons/react/24/outline";
 export default function About3() {
     return(
 
-      <div className="mx-0 sm:mx-auto w-auto h-auto sm:max-w-7xl sm:h-auto px-6 lg:px-8 mb-10">
-      <div className="relative mx-auto max-w-2xl gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none items-center">
+      <div className="mx-0 sm:mx-auto w-auto h-auto sm:max-w-7xl sm:h-auto  lg:px-8 mb-10">
+      <div className="relative mx-auto max-w-2xl  sm:gap-y-20 lg:mx-0 lg:max-w-none items-center">
         {/* 이미지와 오버레이 텍스트를 담는 컨테이너 */}
-        <div className="relative">
+        <div className="relative w-screen h-fit sm:w-auto">
           {/* 이미지 */}
           <Image
             alt="About 참참컴퍼니"
-            className="w-screen object-cover aspect-square sm:aspect-video "
+            className="object-center object-cover sm:aspect-video w-screen h-[600px] sm:h-full"
             src={
               "https://images.unsplash.com/photo-1660663374499-9cbf2415ffb9?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             }

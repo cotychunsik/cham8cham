@@ -1,0 +1,11 @@
+{
+  "header": {
+    "logo": "참참컴퍼니",
+    "home": "홈",
+    "about": "회사 소개"
+  },
+  "footer": {
+    "contact": "연락처",
+    "privacy": "개인정보 보호정책"
+  }
+}

@@ -1,5 +1,5 @@
 'use client';
-import AboutSlider from "./AboutSlider";
+import AboutSlider from "../../components/AboutSlider";
 import OurTeam from "./OurTeam";
 
 export default function AboutSection(){

@@ -1,8 +1,8 @@
+import { WithTranslation,withTranslation } from "next-i18next";
 import Image from "next/image"; 
 // import Link from "next/link";
 
-
-export default function OurTeam() {
+function OurTeam({t}:WithTranslation) {
   return (
        <section id="testimonials">
         <div className="mx-auto max-w-7xl py-10 sm:px-6 sm:py-4 lg:px-8">
@@ -23,7 +23,7 @@ export default function OurTeam() {
               <div className="flex-1 flex justify-start items-center mb-4">
                 <Image alt="photo by unsplash" src="https://images.unsplash.com/photo-1614393617228-b82d535b738b?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width={700} height={352}
                 objectFit="cover" className="w-12 h-12 mr-3 mt-5 rounded-full"></Image>
-                <p className="font-semibold mt-4">신영진, Design/PM</p>
+                <p className="font-semibold mt-4">{t('ourTeam1.name')}신영진, Design/PM</p>
                 <div>
                 
                 </div>
@@ -100,3 +100,4 @@ SQLD 취득함 <br/>
       </section>
   );
 }
+export default withTranslation('ourTeamPage')(OurTeam);
